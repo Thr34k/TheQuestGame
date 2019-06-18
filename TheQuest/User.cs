@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using TheQuest.Models;
 
-namespace TheQuest
+namespace TheQuest.Models
 {
     public class User
     {
