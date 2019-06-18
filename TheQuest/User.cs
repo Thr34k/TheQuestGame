@@ -4,5 +4,6 @@ namespace TheQuest
 {
     public class User
     {
+
     }
 }
