@@ -2,7 +2,7 @@
 
 namespace TheQuest
 {
-    public class User
+    public class Class1
     {
     }
 }
