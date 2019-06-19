@@ -9,13 +9,13 @@ namespace TheQuest.Models
     {
         public Enemy()
         {
-            this.Stats = new HashSet<Stat>();
+            this.Stats = new HashSet<Stats>();
         }
         [Key]
         public int EnemyId { get; set; }
         public string Name { get; set; }
 
-        public ICollection<Stat> Stats { get; set; }
+        public ICollection<Stats> Stats { get; set; }
 
         public int ItemId { get; set; }
         public Item Item { get; set; }
