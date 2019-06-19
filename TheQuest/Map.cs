@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace TheQuest.Models
 {
     public class Map
     {
+        [Key]
         public int MapId { get; set; }
 
         public float Longitude { get; set; }

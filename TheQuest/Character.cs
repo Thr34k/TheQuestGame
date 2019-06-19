@@ -9,7 +9,7 @@ namespace TheQuest.Models
     {
         public Character()
         {
-            this.Stats = new HashSet<Stat>();
+            this.Stats = new HashSet<Stats>();
             this.Friends = new HashSet<Character>();
             this.Items = new HashSet<Item>();
         }
